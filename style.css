@@ -1,0 +1,94 @@
+/* Gotta make it look good ;) */
+
+body {
+    background-color:cornflowerblue;
+    color: darkblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 95vh;
+}
+
+.mainapp {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(84, 84, 84, 0.5);
+    min-width: 500px;
+}
+
+.top {
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(84, 84, 84, 0.5);
+    min-width: 500px;
+    margin-bottom: 20px;
+}
+
+.search {
+    padding: 7px 10px;
+    font-size: medium;
+}
+
+.btn {
+    padding: 10px;
+    font-size: medium;
+    color: azure;
+    background-color: darkblue;
+    border: none;
+    border-radius: 5px;
+    min-width: 100px;
+}
+
+.linkform {
+    display: inline;
+}
+
+input[type=submit].link { 
+    border: none;
+    background: none;
+    display: inline;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+td {
+    border-bottom: 3px solid darkblue;
+}
+
+th {
+    border-bottom: 3px solid lightblue;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color:darkblue;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover, .btn:hover, input[type=submit].link:hover {
+    color: lightblue;
+}
